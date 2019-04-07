@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## Welcome using JPA-Bat
 
-You can use the [editor on GitHub](https://github.com/xscs709560271/jpa-bat/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome and thanks.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a IDEA plugin to help u to generate java files when you using SpringData JPA.
 
-### Markdown
+## Usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When you using JPA-Bat, you just need to specify few values and take following steps:
 
-```markdown
-Syntax highlighted code block
+1. Install JPA-Bat from "IDEA marketplace" and Restart IDEA.
 
-# Header 1
-## Header 2
-### Header 3
+2. Following next section named "Templates Usage" to CREATE your own templates.
 
-- Bulleted
-- List
+3. Then, Click "JPA-Bat" menu form top menu items and Click "Start Config".
 
-1. Numbered
-2. List
+4. Then you just specify few "path" and click the "Generate" button.
 
-**Bold** and _Italic_ and `Code` text
+5. Finally, Enjoy you develop.(σ´∀`)σ 
 
-[Link](url) and ![Image](src)
-```
+### Templates Usage
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+SpringData JPA generally contains three layers: Controller, Service and Dao.(Entity is used to create ORM relationship for you, so i didn't put in it)
 
-### Jekyll Themes
+> you can reference this link to know more details: [Spring Boot with Spring Data JPA](https://www.amitph.com/spring-boot-with-spring-data-jpa/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xscs709560271/jpa-bat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Controller Expression
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Current version for you in Controller are following:
+---
+|${expression}|meaning|example|
+---
+|${EntityName}|This the entity name you want to create.|${User}|
+|${EntityName}|This the entity name you want to create.|${User}|
