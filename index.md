@@ -27,8 +27,8 @@ SpringData JPA generally contains three layers: Controller, Service and Dao.(Ent
 #### Controller Expression
 
 Current version for you in Controller are following:
----
+
 |${expression}|meaning|example|
----
+| -----   | -----   | ----- |
 |${EntityName}|This the entity name you want to create.|${User}|
 |${EntityName}|This the entity name you want to create.|${User}|
